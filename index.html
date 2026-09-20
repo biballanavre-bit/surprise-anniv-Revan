@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- PIN -->
+  <div id="pin-screen">
+    <div class="pin-box">
+      <div class="lock">🔐</div>
+
+      <p class="mini-title">A LITTLE SURPRISE FOR YOU</p>
+
+      <h1>Enter The PIN</h1>
+
+      <p class="pin-description">
+        Masukkan PIN untuk membuka sesuatu yang spesial ♡
+      </p>
+
+      <input
+        type="password"
+        id="pin-input"
+        maxlength="6"
+        inputmode="numeric"
+        placeholder="••••••"
+      >
+
+      <button onclick="checkPin()">Open ♡</button>
+
+      <p id="pin-error"></p>
+    </div>
+  </div>
+
+
+  <!-- WEBSITE -->
+  <main id="main-content" class="hidden">
+
+    <div id="flowers"></div>
+
+
+    <!-- PEMBUKA -->
+    <section class="hero">
+
+      <p class="small">
+        — FROM MY HEART TO YOURS —
+      </p>
+
+      <h1>
+        Happy Anniversary
+        <br>
+        My Love ♡
+      </h1>
+
+      <p class="subtitle">
+        A little website made especially for you.
+      </p>
+
+      <button onclick="openLetter()">
+        Open My Letter ♡
+      </button>
+
+    </section>
+
+
+    <!-- SURAT -->
+    <section class="letter" id="letter">
+
+      <p class="small">— FROM MY HEART —</p>
+
+      <h2>A Letter For You</h2>
+
+      <div class="card">
+
+        <p>Happy anniversary, Asipakuuu. 🤍</p>
+
+        <p>
+          Hari ini mungkin terlihat seperti hari biasa,
+          tapi buat aku hari ini punya arti yang berbeda.
+          Karena hari ini mengingatkan aku bahwa sudah ada
+          banyak cerita yang kita lewati bersama.
+        </p>
+
+        <p>
+          Dari awal kita kenal, mungkin kita nggak pernah
+          menyangka kalau akhirnya kita bisa sampai sejauh ini.
+          Ada banyak hal yang sudah terjadi, ada banyak tawa,
+          cerita, candaan, dan juga beberapa masalah yang
+          pernah kita lewati bersama.
+        </p>
+
+        <p>
+          Aku sadar, hubungan kita nggak selalu berjalan
+          dengan sempurna. Kadang aku masih egois, kadang
+          aku terlalu terbawa perasaan, kadang ada hal kecil
+          yang akhirnya menjadi masalah besar.
+        </p>
+
+        <p>
+          Untuk semua kesalahan aku selama kita bersama,
+          aku benar-benar minta maaf. Terima kasih karena
+          kamu tetap mau memahami aku, tetap mau mendengarkan,
+          dan tetap memberikan kesempatan untuk aku belajar
+          menjadi seseorang yang lebih baik.
+        </p>
+
+        <p>
+          Terima kasih untuk semua hal kecil yang mungkin
+          menurut kamu sederhana, tapi sebenarnya berarti
+          banget buat aku. Pesan-pesan kecil, perhatian kamu,
+          cerita random kita, tawa kita, bahkan momen ketika
+          kita cuma diam bersama.
+        </p>
+
+        <p>
+          Semua itu perlahan menjadi bagian dari kenangan
+          yang nggak ingin aku lupakan.
+        </p>
+
+        <p>
+          Aku bersyukur pernah menemukan seseorang seperti kamu.
+          Seseorang yang bisa membuat hari biasa terasa lebih
+          menyenangkan hanya dengan kehadirannya.
+        </p>
+
+        <p>
+          Aku nggak bisa menjanjikan kalau ke depannya semuanya
+          akan selalu mudah. Tapi aku bisa berusaha untuk tetap
+          ada, tetap mendengarkan, tetap belajar memahami,
+          dan tetap menghargai kamu.
+        </p>
+
+        <p>
+          Kalau suatu hari nanti kita melihat kembali semua
+          foto, pesan, dan cerita yang pernah kita buat,
+          aku ingin kita tersenyum dan sadar bahwa kita
+          pernah melewati begitu banyak hal bersama.
+        </p>
+
+        <p>
+          Aku ingin lebih banyak membuat kenangan sama kamu.
+          Lebih banyak tertawa, lebih banyak cerita,
+          lebih banyak foto, lebih banyak perjalanan,
+          dan lebih banyak momen sederhana yang nantinya
+          bisa kita ingat kembali.
+        </p>
+
+        <p>
+          Aku juga berharap kita bisa terus saling menjaga.
+          Kalau ada masalah, semoga kita bisa memilih untuk
+          membicarakannya daripada saling menjauh.
+          Kalau ada salah, semoga kita bisa belajar memaafkan.
+          Dan kalau salah satu dari kita sedang lelah,
+          semoga yang lainnya bisa menjadi tempat untuk pulang.
+        </p>
+
+        <p>
+          Terima kasih sudah menjadi bagian dari hidup aku.
+          Terima kasih untuk semua waktu yang kamu berikan,
+          untuk semua perhatian, kesabaran, dan kasih sayang
+          yang sudah kamu berikan selama ini.
+        </p>
+
+        <p>
+          Aku nggak tahu akan seperti apa cerita kita
+          di masa depan. Tapi untuk hari ini, aku cuma ingin
+          bilang satu hal:
+        </p>
+
+        <p class="special">
+          Aku senang pernah bertemu kamu.
+          Aku senang bisa mengenal kamu.
+          Dan aku senang bisa menjalani semua cerita ini
+          bersama kamu. 🤍
+        </p>
+
+        <p>
+          Semoga anniversary ini bukan cuma menjadi
+          perayaan dari waktu yang sudah kita lewati,
+          tapi juga menjadi awal dari lebih banyak cerita
+          yang akan kita tulis bersama.
+        </p>
+
+        <p class="signature">
+          With all my heart,
+          <br>
+          someone who is grateful to have you ♡
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- FOTO -->
+    <section class="photos">
+
+      <p class="small">— OUR MEMORIES —</p>
+
+      <h2>Our Little Memories</h2>
+
+      <p class="photo-text">
+        Some moments are simple,
+        but become special because they're with you.
+      </p>
+
+      <div class="photo-container">
+
+        <div class="photo-card">
+          <img src="images/foto1.jpg" alt="Foto kenangan 1">
+        </div>
+
+        <div class="photo-card">
+          <img src="images/foto2.jpg" alt="Foto kenangan 2">
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- JAR -->
+    <section class="jar-section">
+
+      <p class="small">— FROM MY HEART TO YOURS —</p>
+
+      <h2>Little Notes For You</h2>
+
+      <p class="jar-description">
+        Klik jar untuk mengambil pesan secara acak ♡
+      </p>
+
+      <div class="jar" onclick="pickNote()">
+        🫙
+      </div>
+
+      <button onclick="pickNote()">
+        🫙 Pick A Note
+      </button>
+
+      <div id="note" class="note hidden-note">
+        Klik jar untuk membuka pesan ♡
+      </div>
+
+    </section>
+
+
+    <!-- ENDING -->
+    <section class="ending">
+
+      <p class="small">
+        — OUR STORY DOESN'T END HERE —
+      </p>
+
+      <h2>And Finally...</h2>
+
+      <div class="ending-text">
+
+        <p>
+          Kalau kamu sudah sampai di bagian ini,
+          berarti kamu sudah membaca semua yang ingin
+          aku sampaikan.
+        </p>
+
+        <p>
+          Sebenarnya masih banyak hal yang ingin aku
+          ceritakan, tapi mungkin nggak semuanya bisa
+          dimasukkan ke dalam satu website kecil ini.
+        </p>
+
+        <p>
+          Ada begitu banyak momen yang sudah kita lewati,
+          dan aku berharap masih akan ada banyak lagi
+          momen yang menunggu kita di depan.
+        </p>
+
+        <p>
+          Jadi kalau suatu hari kamu merasa semuanya
+          terlalu berat, ingatlah bahwa pernah ada
+          seseorang yang membuat website kecil ini
+          hanya untuk memberitahu kamu betapa
+          berartinya kamu.
+        </p>
+
+        <p>
+          Terima kasih sudah menjadi kamu.
+          Terima kasih sudah hadir.
+          Terima kasih sudah bertahan.
+          Dan terima kasih untuk semua cerita
+          yang sudah kita buat sampai hari ini.
+        </p>
+
+        <p>
+          Aku berharap kita bisa terus bertumbuh,
+          saling mendukung, saling memahami,
+          dan membuat lebih banyak cerita indah
+          bersama.
+        </p>
+
+        <p class="final-message">
+          Apa pun yang terjadi nanti,
+          aku akan selalu menghargai semua cerita
+          yang pernah kita punya.
+        </p>
+
+        <div class="big-heart">♡</div>
+
+        <p class="forever">
+          Happy Anniversary, Asipa my love.
+          <br>
+          Semoga cerita kita masih panjang.
+          🤍
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- MUSIK -->
+    <audio id="music" loop preload="auto">
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- TOMBOL ATAS -->
+    <button id="top-button" onclick="goTop()">↑</button>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
